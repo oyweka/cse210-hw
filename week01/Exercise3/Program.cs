@@ -9,7 +9,6 @@ class Program
         {
             Random number = new Random();
             int magicNumber = number.Next(1, 101);
-            Console.WriteLine($"Magic number is: {magicNumber}");
 
 
             int guess;
